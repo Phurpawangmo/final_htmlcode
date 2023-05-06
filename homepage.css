@@ -1,0 +1,102 @@
+body {
+	font-family: "Raleway", sans-serif;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	}
+	
+	h1, h2, h3 {
+	margin: 0;
+	}
+	
+	a {
+	color: #333;
+	text-decoration: none;
+	
+	}
+	
+	ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+	
+	/* Header styles */
+	header {
+	background-color: #f2f2f2;
+	padding: 30px;
+	}
+	
+	nav {
+	float: right;
+	margin-right: 20px;
+	}
+	
+	nav ul li {
+	display: inline-block;
+	margin-left: 20px;
+	}
+	
+	nav ul li:first-child {
+	margin-left: 0;
+	}
+	
+	nav ul li a {
+	display: block;
+	padding: 10px;
+	}
+	
+	nav ul li a:hover {
+	background-color: #333;
+	color: #ffffff;
+	}
+	
+	/* Banner styles */
+	#homepage {
+	height: 650px;
+	width: 100%;
+	padding: 0;
+	background-size: cover;
+	background-position: center;
+	}
+
+	#banner-text {
+	height: 600px;
+	width: 40%;
+	color: #2d2e2e;
+	padding: 0;
+	text-align: center;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	}
+	#homepage h2 {
+	font-size: 55px;
+	font-weight: bold;
+	color: #131212;
+	text-align: center;
+	}
+	
+	#homepage p {
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 30px;
+	color: #020202;
+	}
+	
+	.button {
+	background-color: #333;
+	text-align: 200px;
+	color: #fff;
+	padding:9px;
+	border-radius: 5px;
+	text-transform: auto;
+	transition: background-color 0.3s ease;
+	font-size: 16px;
+	
+	}
+	
+	.button:hover {
+	background-color: #50ade6;
+	color: #333;
+	}
